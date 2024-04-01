@@ -2,10 +2,10 @@ CREATE TABLE Produtos (
 	id_produto 		int,
 	nome 			VARCHAR(50) 		NOT NULL,
 	preco 			decimal(10,2)		NOT NULL,
-	estoque 		int					NOT NULL,
-	perecivel		VARCHAR(50)			NOT NULL,
+	estoque 		int			NOT NULL,
+	perecivel		VARCHAR(50)		NOT NULL,
 	marca			VARCHAR(50),
-	nacionalidade	VARCHAR(50),	
+	nacionalidade		VARCHAR(50),	
   
 	PRIMARY key(id_produto)
 );
