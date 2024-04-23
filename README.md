@@ -1,3 +1,10 @@
-Atividade desenvolvida em aula para aprender Inner Join, Left Join e Aliases.
-Print do Workbench:
-![image](https://github.com/lncnAmaro/ADSBancodeDados/assets/165618552/da8048c4-5926-42eb-975c-a3da2002ec5a)
+- Título do exercício: 
+Atividade individual - Tema: Base de Dados Empresa (VIEW) 
+- Descrição da atividade: 
+Atividade desenvolvida para praticar a utilização do "VIEW", criando tabelas e depois visualizações delas.
+- Modelo Lógico:
+
+- Pré-requisitos:
+MySQL Workbench.
+- Nome - RA:
+Lincon Amaro de Arruda - 210026.
