@@ -1,3 +1,10 @@
+- Título do exercício: 
+Atividade individual - Tema: Alunos e Cidades (INNER JOIN E ALIASES) 
+- Descrição da atividade: 
 Atividade desenvolvida em aula para aprender Inner Join, Left Join e Aliases.
-Print do Workbench:
-![image](https://github.com/lncnAmaro/ADSBancodeDados/assets/165618552/287ad933-5a29-492e-be06-f4c259d00e73)
+- Modelo Lógico:
+
+- Pré-requisitos:
+MySQL Workbench.
+- Nome - RA:
+Lincon Amaro de Arruda - 210026.
