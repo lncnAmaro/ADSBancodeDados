@@ -1,31 +1,30 @@
 create table marcas(
-	mrc_id					        int  			    PRIMARY KEY,
-  	mrc_nome				      varchar(50)		not NULL,
-	mrc_nacionalidade		    varchar(50)
+	mrc_id			int			PRIMARY KEY,
+  	mrc_nome		varchar(50)		not NULL,
+	mrc_nacionalidade	varchar(50)
 );
 
 create table produtos(
-    prd_id					      int			      PRIMARY KEY,
-    prd_nome				      varchar(50)		NOT NULL,
-    prd_qtd_estoque			  int 			    NOT NULL			default 0,
-    prd_estoque_mim			  int 			    NOT NULL			default 0,
-    prd_data_fabricacao		timestamp			      				default CURRENT_TIMESTAMP,
-    prd_perecivel			    boolean,
-    prd_valor				      decimal(10,2),
-  
-  	prd_marca_id			    int,
+	prd_id			int			PRIMARY KEY,
+	prd_nome		varchar(50)		NOT NULL,
+	prd_qtd_estoque		int 			NOT NULL		default 0,
+	prd_estoque_mim		int 			NOT NULL		default 0,
+	prd_data_fabricacao	timestamp			      		default CURRENT_TIMESTAMP,
+	prd_perecivel		boolean,
+	prd_valor		decimal(10,2),
+	prd_marca_id		int,
   	FOREIGN KEY(prd_marca_id)             	REFERENCES marcas(mrc_id)
 );
 
 create table fornecedores(
-	  frn_id					      int        		PRIMARY key,
-	  frn_nome				      varchar(50)		not NULL,
-  	frn_email				      varchar(50)
+	frn_id			int        		PRIMARY key,
+	frn_nome		varchar(50)		not NULL,
+  	frn_email		varchar(50)
 );
 
 CREATE TABLE produto_fornecedor(
-	pf_prod_id				      int							REFERENCES produtos(prd_id),
- 	pf_forn_id				      int							REFERENCES fornecedores(frn_id),
+	pf_prod_id		int		REFERENCES produtos(prd_id),
+ 	pf_forn_id		int		REFERENCES fornecedores(frn_id),
   
 	primary key	(pf_prod_id, pf_forn_id)
 );
