@@ -1,11 +1,11 @@
 create table Cidades (
-	id			  int			    primary key,
-	nome		  varchar(60) not null,
+	id		int			primary key,
+	nome		varchar(60)		not null,
 	populacao	int
 );
 create table Alunos (
-	id			  int			  primary key,
-	nome		  varchar(60)	not null,
+	id		int			primary key,
+	nome		varchar(60)		not null,
 	data_nasc	date,
 	cidade_id	int,
 
