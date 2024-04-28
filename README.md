@@ -12,7 +12,7 @@ universidade;
   8. Poste somente o link de acesso ao repositório nesta atividade;
   9. No readme insira a imagem do modelo lógico criado.
 - Modelo Lógico:
-
+https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Stored-Procedures/Modelo%20de%20Stored%20Procedures.png
 - Pré-requisitos:
 MySQL Workbench.
 - Nome - RA:
