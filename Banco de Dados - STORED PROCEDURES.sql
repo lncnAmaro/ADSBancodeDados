@@ -1,24 +1,24 @@
 CREATE TABLE Professores (
-	id_prof			int				NOT NULL			PRIMARY KEY,
-    nome_prof		varchar(50)		NOT NULL
+	id_prof			int			NOT NULL		PRIMARY KEY,
+	nome_prof		varchar(50)		NOT NULL
 );
 
 CREATE TABLE Cursos (
-    id_curso		int				NOT NULL			PRIMARY KEY,
-    nome_curso		varchar(50),
-    prof_id			int,
+    	id_curso		int			NOT NULL		PRIMARY KEY,
+    	nome_curso		varchar(50),
+	prof_id			int,
     
 	FOREIGN KEY (prof_id) REFERENCES Professores(id_prof)
 );
 
 CREATE TABLE Alunos (
-	id_aluno		int				NOT NULL			PRIMARY KEY,
-    nome_aluno		varchar(50)		NOT NULL,
-    sobrenome_aluno	varchar(50)		NOT NULL,
-    curso_id		int				NOT NULL,
-    email			varchar(100),
+	id_aluno		int			NOT NULL		PRIMARY KEY,
+    	nome_aluno		varchar(50)		NOT NULL,
+    	sobrenome_aluno	varchar(50)			NOT NULL,
+	curso_id		int			NOT NULL,
+    	email			varchar(100),
     
-    FOREIGN KEY (curso_id) REFERENCES Cursos(id_curso)
+	FOREIGN KEY (curso_id) REFERENCES Cursos(id_curso)
 );
 
 -- Inserindo dados na tabela Professores
@@ -63,20 +63,20 @@ DELIMITER $$$
 CREATE PROCEDURE GerarEmail (IN aluno_id int)
 BEGIN
 	DECLARE contador int DEFAULT 1;
-    DECLARE email_temporario varchar(100);
+    	DECLARE email_temporario varchar(100);
 	DECLARE nome_temporario varchar(50);  
  	DECLARE sobrenome_temporario varchar(50);  
     
-    SELECT nome_aluno, sobrenome_aluno INTO nome_temporario, sobrenome_temporario FROM Alunos WHERE id_aluno = aluno_id;
+    	SELECT nome_aluno, sobrenome_aluno INTO nome_temporario, sobrenome_temporario FROM Alunos WHERE id_aluno = aluno_id;
     
-    SET email_temporario = CONCAT(nome_temporario, '.', sobrenome_temporario, '@dominio.com');
+    	SET email_temporario = CONCAT(nome_temporario, '.', sobrenome_temporario, '@dominio.com');
     
-    WHILE EXISTS (SELECT * FROM Alunos WHERE email = email_temporario) DO 
+    	WHILE EXISTS (SELECT * FROM Alunos WHERE email = email_temporario) DO 
 		SET contador = contador + 1;
 		SET email_temporario = CONCAT(nome_temporario, '.', sobrenome_temporario, contador, '@dominio.com');
 	END WHILE;
     
-    UPDATE Alunos SET email = email_temporario WHERE id_aluno = aluno_id;
+    	UPDATE Alunos SET email = email_temporario WHERE id_aluno = aluno_id;
 END $$$
 DELIMITER ;
 
