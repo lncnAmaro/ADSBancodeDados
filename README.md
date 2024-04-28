@@ -9,7 +9,7 @@ Atividade individual - Tema: Alunos e Cidades (INNER JOIN E ALIASES)
   6. Produza o Readme do repositório remoto e tire um print da tela após o término da atividade;
   7. Coloque comentários em seu código.
 - Modelo Lógico:
-
+https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Inner-Join-e-Aliases/Modelo%20de%20Inner%2C%20Join%20e%20Aliases.png
 - Pré-requisitos:
 MySQL Workbench.
 - Nome - RA:
