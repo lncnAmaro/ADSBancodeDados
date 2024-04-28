@@ -9,7 +9,7 @@ Atividade individual - Tema: Base de Dados Empresa (VIEW)
   6. Crie uma view que mostra todos os produtos e suas respectivas marcas com validade vencida;
   Selecionar os produtos com preço acima da média.
 - Modelo Lógico:
-
+https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Views/Modelo%20de%20Views.png
 - Pré-requisitos:
 MySQL Workbench.
 - Nome - RA:
