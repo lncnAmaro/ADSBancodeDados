@@ -17,7 +17,7 @@ Atividade individual - Tema: Tabela Produtos (AGRUPAMENTO E AGREGAÇÃO)
   14.  Selecione a quantidade de produtos de cada nacionalidade.
   15.  Envie na atividade somente o link do repositório criado.
 - Modelo Lógico:
-
+https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Agrupamento-e-Agrega%C3%A7%C3%A3o/Modelo%20de%20Agrupamento%20e%20Agrega%C3%A7%C3%A3o.png
 - Pré-requisitos:
 MySQL Workbench.
 - Nome - RA:
