@@ -21,7 +21,7 @@ Atividade individual - Tema: Base de Dados Animais (DELETE, ALTER, UPDATE E DROP
   18. Produza o Readme do repositório remoto e tire um print da tela após o término da atividade;
   19. Coloque comentários em seu código.
 - Modelo Lógico:
-
+https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Delete%2C-Alter%2C-Update-e-Drop/Modelo%20de%20Delete%2C%20Alter%2C%20Update%20e%20Drop.png
 - Pré-requisitos:
 MySQL Workbench.
 - Nome - RA:
