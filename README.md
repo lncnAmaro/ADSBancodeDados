@@ -13,7 +13,7 @@ Atividade individual - Tema: Exemplos (TRIGGERS)
   10. UTILIZE O TEMPO DE AULA PARA EXECUTAR A ATIVIDADE E TIRAR AS DÚVIDAS COM O PROFESSOR;
   11. DURANTE O PROCESSO SE FOR UTILIZADO A OPÇÃO MODEL DISPONÍVEL NO MYSQL WORKBENCH, FAÇA O DEVIDO REGISTRO DO SEU USO NO README.MD.
 - Modelo Lógico:
-https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Triggers-Exemplo-1/Modelo%20do%20Exemplo%201%20de%20Triggers.png
+https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Triggers-Exemplo-2/Modelo%20do%20Exemplo%202%20de%20Triggers.png
 - Pré-requisitos:
 MySQL Workbench.
 - Nome - RA:
