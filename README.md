@@ -1,6 +1,6 @@
 - Título do exercício: 
 Atividade individual - Tema: Exemplos (TRIGGERS)
-- Descrição da atividade: 
+- Descrição da atividade:
   1.REPRODUZA OS DOIS EXEMPLOS DADOS NO MYSQL WORKBENCH;
   2.EXECUTE AS ETAPAS E VERIFIQUE SEUS RESULTADOS;
   3.VEJA OS RESULTADOS OBTIDOS A CADA TAREFA REALIZADA E TIRE PRINT’S DOS RESULTADOS;
@@ -13,7 +13,7 @@ Atividade individual - Tema: Exemplos (TRIGGERS)
   10.UTILIZE O TEMPO DE AULA PARA EXECUTAR A ATIVIDADE E TIRAR AS DÚVIDAS COM O PROFESSOR;
   11.DURANTE O PROCESSO SE FOR UTILIZADO A OPÇÃO MODEL DISPONÍVEL NO MYSQL WORKBENCH, FAÇA O DEVIDO REGISTRO DO SEU USO NO README.MD.
 - Modelo Lógico:
-https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Agrupamento-e-Agrega%C3%A7%C3%A3o/Modelo%20de%20Agrupamento%20e%20Agrega%C3%A7%C3%A3o.png
+
 - Pré-requisitos:
 MySQL Workbench.
 - Nome - RA:
