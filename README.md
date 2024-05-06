@@ -1,21 +1,17 @@
 - Título do exercício: 
-Atividade individual - Tema: Tabela Produtos (AGRUPAMENTO E AGREGAÇÃO) 
+Atividade individual - Tema: Exemplos (TRIGGERS)
 - Descrição da atividade: 
-  1. ETAPA 1: Crie uma tabela Produtos com os seguintes itens id_produto; nome; preço; estoque; perecível; marca; nacionalidade;
-  2.  Atribua a cada campo seu respectivo tipo;
-  3.  Os itens: nome; preço; estoque; perecível não poderão receber valores nulos;
-  4.  O id_produto deve ser utilizado como chave-primaria;
-  5.  Após a criação insira cinco produtos, todos devem ter seus respectivos campos preenchidos;
-  6.  Verifique se todos os dados foram inseridos;
-  7.  ETAPA 2: Gere um relatório informando quantos produtos estão cadastrados;
-  8.  Gere um relatório informando o preço médio dos produtos;
-  9.  Selecione a média dos preços dos produtos em 2 grupos: perecíveis e não perecíveis;
-  10.  Selecione a média dos preços dos produtos agrupados pelo nome do produto;
-  11.  Selecione a média dos preços e total em estoque dos produtos;
-  12.  Selecione o nome, marca e quantidade em estoque do produto mais caro;
-  13.  Selecione os produtos com preço acima da média;
-  14.  Selecione a quantidade de produtos de cada nacionalidade.
-  15.  Envie na atividade somente o link do repositório criado.
+  1.REPRODUZA OS DOIS EXEMPLOS DADOS NO MYSQL WORKBENCH;
+  2.EXECUTE AS ETAPAS E VERIFIQUE SEUS RESULTADOS;
+  3.VEJA OS RESULTADOS OBTIDOS A CADA TAREFA REALIZADA E TIRE PRINT’S DOS RESULTADOS;
+  4.POR FIM, MONTE UM REPOSITÓRIO REMOTO E PREENCHA O README.MD COM O MODELO LÓGICO MONTADO DO PRIMEIRO EXEMPLO, SOMENTE UM PRINT DO MODELO E DENTRO DO SEU REPOSITÓRIO REMOTO FEITO COLOQUE O CÓDIGO SQL DO PRIMEIRO EXEMPLO;
+  5.PARA O SEGUNDO EXEMPLO CRIE UMA BRANCH DENTRO DO SEU REPOSITÓRIO REMOTO, NOMEIE A BRANCH COMO EXEMPLO DOIS, MODIFIQUE SEU README.MD COM INFORMAÇÕES DO SEGUNDO EXEMPLO E ASSIM COMO O PRIMEIRO TIRE UM PRINT DO MODELO LÓGICO E INSIRA NO README.MD;
+  6.REMOVA O SCRIPT DO PRIMEIRO EXEMPLO E INSIRA O CÓDIGO NA BRANCH DO EXEMPLO DOIS;
+  7.ENVIE NA ATIVIDADE SOMENTE O LINK DO REPOSITÓRIO REMOTO;
+  8.ESTÁ É UMA DAS ATIVIDADES DA AC2, PARA SER EXECUTADA NO MYSQL WORKBENCH, SUA ENTREGA ESTÁ PARA O DIA 06/05/24 ATÉ AS 23:30h;
+  9.A TAREFA É INDIVIDUAL, PODENDO SER UTILIZADO QUALQUER MATERIAL PARA REALIZAÇÃO DA ATIVIDADE;
+  10.UTILIZE O TEMPO DE AULA PARA EXECUTAR A ATIVIDADE E TIRAR AS DÚVIDAS COM O PROFESSOR;
+  11.DURANTE O PROCESSO SE FOR UTILIZADO A OPÇÃO MODEL DISPONÍVEL NO MYSQL WORKBENCH, FAÇA O DEVIDO REGISTRO DO SEU USO NO README.MD.
 - Modelo Lógico:
 https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Agrupamento-e-Agrega%C3%A7%C3%A3o/Modelo%20de%20Agrupamento%20e%20Agrega%C3%A7%C3%A3o.png
 - Pré-requisitos:
