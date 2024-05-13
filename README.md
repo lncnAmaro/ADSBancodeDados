@@ -11,7 +11,7 @@ Atividade individual - Tema: Base de Dados Pizzaria (MODELO LÓGICO)
   8. Após a criação das atividades monte um repositório remoto para enviar a atividade;
   9. Neste repositório, crie um README.MD com uma imagem do modelo lógico criado e seguindo o modelo explicado em aula;
 - Modelo Lógico:
-
+https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Modelo-L%C3%B3gico/Modelo%20L%C3%B3gico%20da%20Pizzaria.png
 - Pré-requisitos:
 MySQL Workbench.
 - Nome - RA:
