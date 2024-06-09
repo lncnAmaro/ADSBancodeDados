@@ -12,7 +12,7 @@ Atividade individual - Tema: Sistema Universidade (FUNCTIONS)
   9. Crie o modelo lógico do exercício.
   10. Crie 200 registros diferentes de alunos;
   11. Crie 25 tipos de cursos de uma universidade.
-- Modelo Lógico: 
+- Modelo Lógico: https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Functions/Modelo%20de%20Functions.png
 - Pré-requisitos:
 MySQL Workbench.
 - Nome - RA:
