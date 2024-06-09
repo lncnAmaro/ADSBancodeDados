@@ -1,0 +1,35 @@
+{
+  "Nome": "João Grilo",
+  "Endereço": "Rua Suassuna, 30 - João Pessoa, PB",
+  "Emails": ["grilo@mail.com", "joaog@mk.com"],
+  "Cargo": "Contador",
+  "Jornada": 40,
+  "Salario": 3000.00
+}
+
+{
+  "Nome": "Ada Byron",
+  "Endereço": "Rua Lovelace, 67 - London",
+  "Emails": ["ada@mail.com", "abyron@tech.com"],
+  "Cargo": "Developer",
+  "Jornada": 20,
+  "Salario": 15000.00
+}
+
+{
+  "Nome": "Gerundino",
+  "Endereço": "Rua Substantivo, 78 - Bairro Predicado, Mesóclise - AC",
+  "Emails": ["gerundino@gmail.com"],
+  "Cargo": "Linguista",
+  "Jornada": 44,
+  "Salario": 8000.00
+}
+
+{
+  "Nome": "Chicó",
+  "Endereço": "Rua Eurico, 50 Apt 28 Bloco C - João Pessoa, PB",
+  "Emails": "",
+  "Cargo": "Developer",
+  "Jornada": 20,
+  "Salario": 15000.00
+}
