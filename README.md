@@ -1,5 +1,5 @@
 - Título do exercício: 
-Atividade individual - Tema: Locação de Automóveis (NORMALIZAÇÃO)
+Atividade individual - Tema: NoSQL
 - Descrição da atividade: 
   1. ETAPA 1
     - Um usuário configura seu navegador com os seguintes dados:
