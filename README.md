@@ -12,7 +12,7 @@ Atividade individual - Tema: Sistema Universidade (FUNCTIONS)
   9. Crie o modelo lógico do exercício.
   10. Crie 200 registros diferentes de alunos;
   11. Crie 25 tipos de cursos de uma universidade.
-https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Inner-Join-e-Aliases/Modelo%20de%20Inner%2C%20Join%20e%20Aliases.png
+- Modelo Lógico: 
 - Pré-requisitos:
 MySQL Workbench.
 - Nome - RA:
