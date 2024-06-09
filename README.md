@@ -5,7 +5,7 @@ Atividade individual - Tema: Locação de Automóveis (NORMALIZAÇÃO)
   2. Faça o modelo lógico de banco de dados relacional;
   3. Escreva o script que cria as tabelas;
   4. Crie uma view que seleciona todas as locações e seus respectivos veículos e clientes.
-- Modelo Lógico e View: 
+- Modelo Lógico e View: https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Normaliza%C3%A7%C3%A3o/Modelo%20de%20Normaliza%C3%A7%C3%A3o.png e https://github.com/lncnAmaro/ADSBancodeDados/blob/Atividade-de-Normaliza%C3%A7%C3%A3o/View%20de%20Normaliza%C3%A7%C3%A3o.png
 - Pré-requisitos:
 MySQL Workbench.
 - Nome - RA:
